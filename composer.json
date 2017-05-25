@@ -1,16 +1,16 @@
 {
-    "name": "ddeboer/imap",
+    "name": "umbrelladeveloperteam/php-imap",
     "description": "Object-oriented IMAP for PHP",
     "keywords": [ "email", "mail", "imap" ],
     "license": "MIT",
     "authors": [
         {
-            "name": "David de Boer",
+            "name": "Umbrella Team",
             "email": "david@ddeboer.nl"
         },
         {
             "name": "Community contributors",
-            "homepage": "https://github.com/ddeboer/imap/graphs/contributors"
+            "homepage": "https://github.com/umbrelladeveloperteam/php-imap/graphs/contributors"
         }   
     ],
     "require": {
