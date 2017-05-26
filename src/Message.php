@@ -41,6 +41,16 @@ class Message extends Message\Part
      *
      * @return string
      */
+    public function getReplyTo()
+    {
+        return $this->getHeaders()->get('in_reply_to');
+    }
+
+    public function getReferences()
+    {
+        return $this->getHeaders()->get('references');
+    }
+
     public function getId()
     {
         return $this->getHeaders()->get('message_id');
